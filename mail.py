@@ -4,7 +4,7 @@ from email.mime.text import MIMEText
 class Message:
     def __init__(self):
         self.my_email = "leienboks@gmail.com"
-        self.my_password = "xxpqaggtidzzengj"
+        self.my_password = ""
 
     def send_self(self, email, days, date, address, message):
         print(email, days, date, address, message)
